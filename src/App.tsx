@@ -31,10 +31,6 @@ function App() {
       <Navbar/>
       <Hero/>
       <Service/>
-      <Banner/>
-      <AppStore/>
-      <Testimonial/>
-      <Footer/>
     </>
   )
 }
