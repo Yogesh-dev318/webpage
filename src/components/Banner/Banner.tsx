@@ -1,23 +1,9 @@
 import BiryaniImg from "../../assets/biryani5.png";
-<<<<<<< HEAD
-// import Vector from "../../assets/vector3.png";
-=======
->>>>>>> bd9e88d (first)
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
-<<<<<<< HEAD
-  // const bgImage = {
-  //   backgroundImage: `url(${Vector})`,
-  //   backgroundPosition: "center",
-  //   backgroundRepeat: "no-repeat",
-  //   backgroundSize: "cover",
-  //   height: "100%",
-  //   width: "100%",
-  // };
-=======
 //   const bgImage = {
 //     backgroundImage: `url(${Vector})`,
 //     backgroundPosition: "center",
@@ -26,7 +12,6 @@ const Banner = () => {
 //     height: "100%",
 //     width: "100%",
 //   };
->>>>>>> bd9e88d (first)
   return (
     <>
       <div className="min-h-[550px] dark:bg-gray-800 ">
