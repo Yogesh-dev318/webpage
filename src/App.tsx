@@ -28,6 +28,13 @@ function App() {
       <AppStore/>
       <Testimonial/>
       <Footer/>
+      <Navbar/>
+      <Hero/>
+      <Service/>
+      <Banner/>
+      <AppStore/>
+      <Testimonial/>
+      <Footer/>
     </>
   )
 }
