@@ -29,8 +29,6 @@ function App() {
       <Testimonial/>
       <Footer/>
       <Navbar/>
-      <Hero/>
-      <Service/>
     </>
   )
 }
