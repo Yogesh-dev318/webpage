@@ -1,18 +1,17 @@
 import BiryaniImg from "../../assets/biryani5.png";
-import Vector from "../../assets/vector3.png";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
-  const bgImage = {
-    backgroundImage: `url(${Vector})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    height: "100%",
-    width: "100%",
-  };
+//   const bgImage = {
+//     backgroundImage: `url(${Vector})`,
+//     backgroundPosition: "center",
+//     backgroundRepeat: "no-repeat",
+//     backgroundSize: "cover",
+//     height: "100%",
+//     width: "100%",
+//   };
   return (
     <>
       <div className="min-h-[550px] dark:bg-gray-800 ">
@@ -20,7 +19,7 @@ const Banner = () => {
           <div
             data-aos="slide-up"
             data-aos-duration="300"
-            className="container">
+            className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {/* Image section */}
               <div className="flex justify-center items-center">
@@ -32,8 +31,8 @@ const Banner = () => {
               </div>
               {/* text content section */}
               <div className=" flex flex-col justify-center items-center gap-6 sm:pt-0">
-                <div className="inline-block">
-                <h1 className="text-3xl sm:text-4xl font-bold dark:text-white">
+                <div className=" flex flex-col">
+                <h1 className="text-3xl sm:text-4xl text-center font-bold dark:text-white">
                   Lorem, ipsum dolor.
                 </h1>
                 <p className="text-sm text-gray-500 tracking-wide leading-5">
