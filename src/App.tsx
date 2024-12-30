@@ -28,7 +28,6 @@ function App() {
       <AppStore/>
       <Testimonial/>
       <Footer/>
-      <Navbar/>
     </>
   )
 }
